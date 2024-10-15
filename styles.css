@@ -57,3 +57,20 @@ button{
 #result{
     margin-top: 20px;
 }
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px; /* Ajuste la taille de la police pour les petits écrans */
+        padding: 10px; /* Ajoute un peu de padding */
+    }
+
+    .input {
+        width: 100%; /* Fait en sorte que le champ de saisie prenne toute la largeur */
+        margin-bottom: 15px; /* Ajoute de l'espacement sous le champ de saisie */
+    }
+
+    button {
+        width: 100%; /* Bouton en pleine largeur */
+        padding: 12px; /* Augmente le padding pour un meilleur confort */
+    }
+}
